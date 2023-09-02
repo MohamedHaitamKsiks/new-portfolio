@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import SkillsView from '../views/SkillsView.vue'
 import ProjectsView from '../views/ProjectsView.vue'
+import Error404View from '../views/Error404View.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -31,7 +32,17 @@ const router = createRouter({
       path: '/projects',
       name: 'projects',
       component: ProjectsView
+    },
+    {
+      path: '/404',
+      name: '404',
+      component: Error404View
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: '/404'
     }
+
   ]
 })
 

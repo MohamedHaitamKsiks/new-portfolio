@@ -31,6 +31,7 @@
 <style scoped>
     .project-card
     {
+        position: relative;
         min-height: 250px;
         width: 100%;
 
@@ -62,6 +63,7 @@
 
     .project-data
     {
+        
         padding: 16px;
 
         display: flex;
@@ -69,7 +71,6 @@
         justify-content: center;
         gap: 8px;
 
-        position: relative;
     }
 
     .project-data-smaller
@@ -90,7 +91,7 @@
 
     .background-dim-hover
     {
-        backdrop-filter: brightness(50%) blur(0px);
+        backdrop-filter:brightness(50%);
     }
 
     .project-data h3

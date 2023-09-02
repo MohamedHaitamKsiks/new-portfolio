@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build; cp dist/index.html dist/404.html; cp -r dist/. /home/ksiks_wa3r/Documents/workspace/mohamedhaitamksiks.github.io/",
     "preview": "vite preview"
   },
   "dependencies": {

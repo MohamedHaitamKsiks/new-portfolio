@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-    <RouterLink class="router-link-container" :to="href" @mouseenter="isHover = true;" @mouseleave="isHover = false;"> 
+    <RouterLink v-if="!isFile" class="router-link-container" :to="href" @mouseenter="isHover = true;" @mouseleave="isHover = false;"> 
         <div class="router-link" >
             <slot></slot> 
             {{ isTextVisible? text: '' }}
@@ -11,6 +11,15 @@ import { RouterLink } from 'vue-router';
 
         <div class="router-link-line" :class="{ 'router-link-line-full': isHover }"></div>
     </RouterLink>
+
+    <a v-else download class="router-link-container" :href="href" @mouseenter="isHover = true;" @mouseleave="isHover = false;"> 
+        <div class="router-link" >
+            <slot></slot> 
+            {{ isTextVisible ? text : '' }}
+        </div>
+
+        <div class="router-link-line" :class="{ 'router-link-line-full': isHover }"></div>
+    </a>
 </template>
 
 <style scoped>
@@ -67,7 +76,12 @@ import { RouterLink } from 'vue-router';
         {
             href: String,
             text: String,
-            isTextVisible: Boolean
+            isTextVisible: Boolean,
+            isFile:
+            {
+                Type: Boolean,
+                default: false
+            }
         },
         data() 
         {

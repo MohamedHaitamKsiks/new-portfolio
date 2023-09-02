@@ -27,6 +27,7 @@ import projects from '../assets/projects/projects.json'
 <style scoped>
     .projects-container
     {
+        margin-top: 80px;
         min-height: 100vh;
 
         display: flex;

@@ -23,7 +23,7 @@ import Navlink from './Navlink.vue';
                 <i class="link-icon bi bi-code-slash"></i>
             </Navlink>
     
-            <Navlink href="/" text="Resume" :isTextVisible="!isScreenSmall">
+            <Navlink href="Resume.pdf" :isFile="true" text="Resume" :isTextVisible="!isScreenSmall">
                 <i class="link-icon bi bi-file-earmark-text"></i>
             </Navlink>
 

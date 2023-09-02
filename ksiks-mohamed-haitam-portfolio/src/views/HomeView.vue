@@ -16,7 +16,8 @@ import '../assets/main.css';
             </h2>
         </div>
 
-        <img src="~@/assets/images/avatar.jpg"/>
+        <img draggable="false" v-if="isAvatar" src="~@/assets/images/avatar.jpg" @click="isAvatar = false;"/>
+        <img draggable="false" v-if="!isAvatar" src="~@/assets/images/profile.jpg" @click="isAvatar = true;"/>
     </div>
 </template>
 
@@ -67,6 +68,15 @@ import '../assets/main.css';
         border-radius: 100%;
         width: 70%;
         max-width: 500px;
+        user-select: none;
+        cursor: pointer;
+
+        transition: transform 0.2s ease-out;
+    }
+
+    .home-container img:hover
+    {
+        transform: scale(1.05);
     }
 
 </style>
@@ -151,6 +161,8 @@ import '../assets/main.css';
         },
         data() {
             return {
+                isAvatar: true,
+
                 isScreenSmall: false,
 
                 isCursorVisible: false,
