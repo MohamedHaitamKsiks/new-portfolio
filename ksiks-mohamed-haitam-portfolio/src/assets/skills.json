@@ -1,0 +1,125 @@
+{
+    "Programming Languages":
+    {
+        "icon": "bi bi-braces",
+        "skills":
+        {
+            "C++": {
+                "level": 80,
+                "icon": "devicon-cplusplus-plain"
+            },
+            "C#": {
+                "level": 70,
+                "icon": "devicon-csharp-plain"
+            },
+            "HTML": {
+                "level": 55,
+                "icon": "devicon-html5-plain"
+            },
+            "CSS": {
+                "level": 55,
+                "icon": "devicon-css3-plain"
+            },
+            "Javascript": {
+                "level": 55,
+                "icon": "devicon-javascript-plain"
+            },
+            "Python": {
+                "level": 50,
+                "icon": "devicon-python-plain"
+            }
+        }
+    },
+
+    "Tools":
+    {
+        "icon": "bi bi-hammer",
+        "skills":
+        {
+            "Visual Studio Code": {
+                "level": 75,
+                "icon": "devicon-vscode-plain"
+            },
+            "Git": {
+                "level": 70,
+                "icon": "devicon-git-plain"
+            },
+            "CMake": {
+                "level": 70,
+                "icon": "devicon-cmake-plain"
+            },
+            "Android Studio": {
+                "level": 60,
+                "icon": "devicon-androidstudio-plain"
+            },
+            "Docker": {
+                "level": 40,
+                "icon": "devicon-docker-plain"
+            }
+        }
+    },
+
+    "Frameworks & Engines":
+    {
+        "icon": "bi bi-gear-wide-connected",
+        "skills":
+        {
+            "Godot": {
+                "level": 80,
+                "icon": "devicon-godot-plain"
+            },
+            "Unity": {
+                "level": 65,
+                "icon": "devicon-unity-original"
+            },
+            "Vue.js": {
+                "level": 60,
+                "icon": "devicon-vuejs-plain"
+            },
+            "Angular": {
+                "level": 50,
+                "icon": "devicon-angularjs-plain"
+            }
+        }
+    },
+
+    "Libraries":
+    {
+        "icon": "bi bi-book",
+        "skills": 
+        {
+            "OpenGL": {
+                "level": 75,
+                "icon": "devicon-opengl-plain"
+            },
+            "GLFW": {
+                "level": 60,
+                "icon": ""
+            },
+            "Vulkan": {
+                "level": 25,
+                "icon": ""
+            }
+        }
+    },
+
+    "Spoken Languages":
+    {
+        "icon": "bi bi-globe",
+        "skills": 
+        {
+            "Arabic": {
+                "level": 90,
+                "icon": ""
+            },
+            "French": {
+                "level": 75,
+                "icon": ""
+            },
+            "English": {
+                "level": 70,
+                "icon": ""
+            }
+        }
+    }
+}
