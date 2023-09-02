@@ -19,7 +19,7 @@ import Navlink from './Navlink.vue';
                 <i class="link-icon bi bi-tools"></i>
             </Navlink>
     
-            <Navlink href="/" text="Projects" :isTextVisible="!isScreenSmall">
+            <Navlink href="/projects" text="Projects" :isTextVisible="!isScreenSmall">
                 <i class="link-icon bi bi-code-slash"></i>
             </Navlink>
     
@@ -107,7 +107,7 @@ import Navlink from './Navlink.vue';
             },
             onWindowResize()
             {
-                const thresholdWidth = 600;
+                const thresholdWidth = 670;
                 this.isScreenSmall = window.innerWidth < thresholdWidth;
             }
         }
