@@ -58,7 +58,7 @@
 
     .skill-smaller
     {
-        width: 140px;
+        width: 120px;
         height: 120px;
         
     }
