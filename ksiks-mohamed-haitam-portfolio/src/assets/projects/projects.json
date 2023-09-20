@@ -26,9 +26,43 @@
             "Godot"
         ],
         "images": [
-            "c26d5a04-c121-42ed-9c43-30a4acfd9409.png",
-            "2fd0552d-898a-41dd-a448-0f9db2044362.png"
+            "81382746-f212-4bf3-9e66-3699ce19d90a.gif",
+            "a04ad145-0988-4d42-ba7f-62ca3db330e8.gif"
         ],
         "main": 1
+    },
+    {
+        "id": "90ffd753-a311-4d8c-a681-c59d72ed8a27",
+        "title": "Super Mario Mania",
+        "description": "I made this Mario fan game to learn Godot. People ended up really linking it and i has a moderate amount of success.",
+        "type": "Desktop Application",
+        "year": "2020",
+        "link": "https://simple-team.itch.io/super-mario-mania",
+        "tools": [
+            "Godot"
+        ],
+        "images": [
+            "5bc58c7d-842a-4f64-983e-760e5bc517e8.gif",
+            "2dbb4927-3a28-4a64-976a-c5f8fb332e7d.gif",
+            "69ad0bbf-fca1-4e26-a06a-43c8e0da1b96.png"
+        ],
+        "main": 2
+    },
+    {
+        "id": "6a81962b-5c9b-440f-8c77-14f31dc06043",
+        "title": "Light Breaker",
+        "description": "My first released game as a freelance game developer in Fiverr for Evil Kitten Interactive.",
+        "type": "Mobile Application",
+        "year": "2022",
+        "link": "https://play.google.com/store/apps/details?id=org.godotengine.lightspeedsource",
+        "tools": [
+            "Godot",
+            "Android Studio"
+        ],
+        "images": [
+            "81d0728b-bacf-4101-97ed-f3c3dc9cdc2d.png",
+            "babd0248-7d83-432e-a3e6-d290af6d2155.webp"
+        ],
+        "main": 0
     }
 ]

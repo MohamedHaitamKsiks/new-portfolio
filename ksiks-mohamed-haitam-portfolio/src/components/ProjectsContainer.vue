@@ -106,6 +106,7 @@
     .project-img
     {
         width: 315px;
+        min-width: 315px;
         height: 250px;
 
         object-fit: cover;
@@ -118,6 +119,7 @@
     .project-tools
     {
         display: flex;
+        gap: 5px;
         z-index: 5;
     }
 
@@ -178,6 +180,7 @@
         },
         mounted()
         {
+
             this.switchImageIntervalId = setInterval(() => {
                 if (this.images.length == 0) return;
                 // skip main

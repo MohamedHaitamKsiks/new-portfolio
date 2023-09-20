@@ -10,7 +10,7 @@ import projects from '../assets/projects/projects.json'
         <h1 class="highlight"> My Projects </h1>
 
         <div class="projects-list">
-            <ProjectsContainer v-for="project in projects" 
+            <ProjectsContainer v-for="project in sortedProjects" 
             :id="project.id"
             :title="project.title"
             :images="project.images"
@@ -60,6 +60,17 @@ import projects from '../assets/projects/projects.json'
 export default
     {
         mounted() {
+            this.sortedProjects = projects;
+
+            // sort projects
+            this.sortedProjects.sort((projectA, projectB) => {
+                return parseFloat(projectB.year) - parseFloat(projectA.year);
+            });
+
+            console.log(projects);
+            console.log(this.sortedProjects);
+
+
             window.addEventListener('resize', this.onWindowResize);
             this.onWindowResize();
         },
@@ -68,6 +79,7 @@ export default
         },
         data() {
             return {
+                sortedProjects: [],
                 isScreenSmall: false,
             };
         },
