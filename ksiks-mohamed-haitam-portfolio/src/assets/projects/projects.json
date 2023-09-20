@@ -14,5 +14,21 @@
             "4fb9fa9e-ab8d-424c-aead-5db467723402.gif"
         ],
         "main": 1
+    },
+    {
+        "id": "ae172872-be84-4fd6-9096-b6972113669f",
+        "title": "Hallow Queen",
+        "description": "Hallow Queen is a game I worked on as a freelance game developer in Fiverr for Fodderlabs.",
+        "type": "Desktop Application",
+        "year": "2022",
+        "link": "https://fodderlabs.itch.io/hallowqueen",
+        "tools": [
+            "Godot"
+        ],
+        "images": [
+            "c26d5a04-c121-42ed-9c43-30a4acfd9409.png",
+            "2fd0552d-898a-41dd-a448-0f9db2044362.png"
+        ],
+        "main": 1
     }
 ]
