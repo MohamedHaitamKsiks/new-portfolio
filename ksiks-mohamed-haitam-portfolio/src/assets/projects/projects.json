@@ -71,13 +71,30 @@
         "description": "My participation of Cozy Autumn Game Jam 2023 using my game engine (ASEngine). ",
         "type": "Desktop Application",
         "year": "2023.5",
-        "link": "https://github.com/MohamedHaitamKsiks/cozy-autumn-project",
+        "link": "https://simple-team.itch.io/leafdash",
         "tools": [
             "C++"
         ],
         "images": [
             "c60b996d-1d29-4797-91e3-1fc7430927ad.png",
             "1dd05aba-17cb-46b4-90b6-c4c0ee99f8fa.gif"
+        ],
+        "main": 0
+    },
+    {
+        "id": "00a754b8-0700-454f-8aec-0514828bfaeb",
+        "title": "Hamster Bumpers",
+        "description": "Hyper casual game I made as part of my internship at Hoptimiste Games.",
+        "type": "Mobile Application",
+        "year": "2023.2",
+        "link": "",
+        "tools": [
+            "C#",
+            "Unity"
+        ],
+        "images": [
+            "fa1238fd-cde7-4796-bd79-1d9cb1961f36.png",
+            "efe039df-1666-43b6-b124-a203c7360d56.gif"
         ],
         "main": 0
     }
