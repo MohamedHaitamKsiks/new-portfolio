@@ -181,18 +181,18 @@
         mounted()
         {
 
-            this.switchImageIntervalId = setInterval(() => {
+            /*this.switchImageIntervalId = setInterval(() => {
                 if (this.images.length == 0) return;
                 // skip main
                 do
                 {
                     this.currentImage = (this.currentImage + 1) % this.images.length;
                 } while (this.currentImage == this.main);
-            }, 2000);
+            }, 2000);*/
         },
         unmounted()
         {
-            clearInterval(this.switchImageIntervalId);
+            /*clearInterval(this.switchImageIntervalId);*/
         },
         computed:
         {

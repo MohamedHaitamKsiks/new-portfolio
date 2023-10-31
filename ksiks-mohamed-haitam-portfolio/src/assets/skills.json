@@ -64,6 +64,10 @@
         "icon": "bi bi-gear-wide-connected",
         "skills":
         {
+            "Qt": {
+                "level": 60,
+                "icon": "devicon-qt-original"
+            },
             "Godot": {
                 "level": 80,
                 "icon": "devicon-godot-plain"

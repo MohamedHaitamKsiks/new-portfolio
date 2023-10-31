@@ -10,10 +10,9 @@
             "Godot"
         ],
         "images": [
-            "f94fcd8d-6e1b-42f5-b8ca-12d3c584e706.gif",
-            "4fb9fa9e-ab8d-424c-aead-5db467723402.gif"
+            "f94fcd8d-6e1b-42f5-b8ca-12d3c584e706.gif"
         ],
-        "main": 1
+        "main": 0
     },
     {
         "id": "ae172872-be84-4fd6-9096-b6972113669f",
@@ -26,10 +25,9 @@
             "Godot"
         ],
         "images": [
-            "81382746-f212-4bf3-9e66-3699ce19d90a.gif",
-            "a04ad145-0988-4d42-ba7f-62ca3db330e8.gif"
+            "81382746-f212-4bf3-9e66-3699ce19d90a.gif"
         ],
-        "main": 1
+        "main": 0
     },
     {
         "id": "90ffd753-a311-4d8c-a681-c59d72ed8a27",
@@ -42,11 +40,9 @@
             "Godot"
         ],
         "images": [
-            "5bc58c7d-842a-4f64-983e-760e5bc517e8.gif",
-            "2dbb4927-3a28-4a64-976a-c5f8fb332e7d.gif",
-            "69ad0bbf-fca1-4e26-a06a-43c8e0da1b96.png"
+            "2dbb4927-3a28-4a64-976a-c5f8fb332e7d.gif"
         ],
-        "main": 2
+        "main": 0
     },
     {
         "id": "6a81962b-5c9b-440f-8c77-14f31dc06043",
@@ -73,10 +69,10 @@
         "year": "2023.5",
         "link": "https://simple-team.itch.io/leafdash",
         "tools": [
-            "C++"
+            "C++",
+            "CMake"
         ],
         "images": [
-            "c60b996d-1d29-4797-91e3-1fc7430927ad.png",
             "1dd05aba-17cb-46b4-90b6-c4c0ee99f8fa.gif"
         ],
         "main": 0
@@ -93,8 +89,95 @@
             "Unity"
         ],
         "images": [
-            "fa1238fd-cde7-4796-bd79-1d9cb1961f36.png",
             "efe039df-1666-43b6-b124-a203c7360d56.gif"
+        ],
+        "main": 0
+    },
+    {
+        "id": "2717ed89-a061-4946-8bb7-7a50b1065310",
+        "title": "Awesome Simple Engine",
+        "description": "Cross-platform game engine written with c++. It's based on an Entity Component System Architecture.",
+        "type": "Desktop Application",
+        "year": "4000",
+        "link": "https://github.com/MohamedHaitamKsiks/awesome-simple-engine",
+        "tools": [
+            "C++",
+            "OpenGL",
+            "CMake",
+            "Python",
+            "Android Studio"
+        ],
+        "images": [
+            "d0f35d04-d8e9-4dad-a972-de7e203dcfce.png"
+        ],
+        "main": 0
+    },
+    {
+        "id": "381c5c4a-69a9-4d5e-a0ed-b7d1a7ec699d",
+        "title": "Nightmare Abyss",
+        "description": "Fast paced shooter inspired by Doom.",
+        "type": "Desktop Application",
+        "year": "2023.8",
+        "link": "https://github.com/MohamedHaitamKsiks/nightmare-abyss",
+        "tools": [
+            "C#",
+            "Unity"
+        ],
+        "images": [
+            "27a11369-23b0-49fc-aadd-42dab3719737.gif"
+        ],
+        "main": 0
+    },
+    {
+        "id": "7cbaee49-4883-458f-8adf-bf065b5cab10",
+        "title": "Parking System",
+        "description": "Parking System is a platform that allows the user to reserve parking spots and allows parking lot owners to register in the system and keep track for available places with AI.",
+        "type": "WEB Application",
+        "year": "2023",
+        "link": "https://github.com/HachimHassani/Parking-System",
+        "tools": [
+            "HTML",
+            "Java",
+            "CSS",
+            "Javascript",
+            "Angular"
+        ],
+        "images": [
+            "8f8a21e1-1366-4fc0-91e7-f88692510861.gif"
+        ],
+        "main": 0
+    },
+    {
+        "id": "6aefcd04-6f42-46e3-be16-fe2fa60285a2",
+        "title": "Fodderlab's portfolio",
+        "description": "Creating a portfolio that allows my client to showcase his projects.",
+        "type": "WEB Application",
+        "year": "2022.5",
+        "link": "",
+        "tools": [
+            "Vue.js",
+            "Javascript",
+            "CSS",
+            "HTML"
+        ],
+        "images": [
+            "9979dcf6-a5c2-43e1-b9d9-3a7ae90ecf17.gif"
+        ],
+        "main": 0
+    },
+    {
+        "id": "fb721eef-71a9-48be-94e0-60ec72757cb0",
+        "title": "Qt Raytracer",
+        "description": "Raytracing renderer visualizer with scene hierarchy.",
+        "type": "Desktop Application",
+        "year": "2025",
+        "link": "https://github.com/MohamedHaitamKsiks/qt-raytracer",
+        "tools": [
+            "Qt",
+            "C++"
+        ],
+        "images": [
+            "2e2b6c07-5876-4a13-a158-a78da6ee4196.png"
         ],
         "main": 0
     }
