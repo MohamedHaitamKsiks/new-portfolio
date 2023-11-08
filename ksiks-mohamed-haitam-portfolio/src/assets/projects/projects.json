@@ -174,11 +174,13 @@
         "link": "https://github.com/MohamedHaitamKsiks/qt-raytracer",
         "tools": [
             "Qt",
-            "C++"
+            "C++",
+            "OpenGL"
         ],
         "images": [
-            "2e2b6c07-5876-4a13-a158-a78da6ee4196.png"
+            "2e2b6c07-5876-4a13-a158-a78da6ee4196.png",
+            "43c6cfdf-973b-4b6d-a844-0da563a2d4a0.png"
         ],
-        "main": 0
+        "main": 1
     }
 ]
